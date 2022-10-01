@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The news database is taken from the Guardian API as endpoint was used Content and Single Item. The functionality itself is to offer the user the possibility to access different sections with particular news and the possibility to save the desired news in favorites.
 
-Demo Live
+[Demo Live](https://news-project-bdd40.web.app/)
 
 Table of contents
 About project
