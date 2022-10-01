@@ -1,7 +1,7 @@
 /* Adaugam variabile globale: */
 :root {
   --text-primary: #101d42;
-  --text-secondary: #fbb44c;
+  --text-secondary: #2bb686;
   --text-dark: #2b2922;
   --text-light: #eaeaea;
 
@@ -27,14 +27,57 @@ ul {
 }
 
 a {
-  display: block;
   text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Alert Styles */
+.alertContainer {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  z-index: 5;
+}
+
+#alertNotification {
+  width: fit-content;
+}
+
+/* Scroll Button */
+#scrollBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--bg-primary);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Customizam Bootstrap: */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
   background-color: #2bb686;
   border-color: #2bb686;
 }
@@ -44,7 +87,7 @@ a {
 }
 
 .text-secondary {
-  color: #fbb44c !important;
+  color: #2bb686 !important;
 }
 
 .text-light {

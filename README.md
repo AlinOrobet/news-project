@@ -1,15 +1,33 @@
-# Getting Started with Create React App
+ITSchool News Project
+This project was bootstrapped with Create React App. The project itself consists in forming a news portal with news sections and favorites section. ITSchool News is the final project for the Web Development course at ITSchool.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The news database is taken from the Guardian API as endpoint was used Content and Single Item. The functionality itself is to offer the user the possibility to access different sections with particular news and the possibility to save the desired news in favorites.
 
-## Available Scripts
+Demo Live
 
-In the project directory, you can run:
+Table of contents
+About project
+Features
+Languages and Tools
+About project
+The free API from The Guardian is used for data access.
 
-### `npm start`
+The final project aimed to use the knowledge gained during the course, more precisely the React chapter. In the project code I used the following hooks: useState, useEffect, useParams, useContext, useNavigate (React Router) a custom useFetch hook has also been created. The data we receive it through useFetch we pass it through the created adapter, so we extract only the information that we still use in the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+As for the stylization side, React Bootstrap is used.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As a user you can access in particular any news from the categories present in the project you can also save them in favorites, and because they are also saved in localStorage this data is not forgotten after the end of the session.
+
+Features
+Among the main features are:
+
+Save to favorites and delete from favorites on the news page
+Save in localStorage and delete respectively from localStorage
+Alert notification when adding and deleting from Favorites
+Display a maximum of 3 news from Favorites on the Home page
+Scroll to Top Button on each page
+Languages and Tools
+ReactJS
+React Router
+React Bootstrap
+Material Icons
