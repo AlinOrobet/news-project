@@ -1,6 +1,6 @@
-#ITSchool News Project
+# ITSchool News Project
 
-This project was bootstrapped with [Create React App]. The project itself consists in forming a news portal with news sections and favorites section. ITSchool News is the final project for the Web Development course at ITSchool.
+This project was bootstrapped with [ Create React App ]. The project itself consists in forming a news portal with news sections and favorites section. ITSchool News is the final project for the Web Development course at ITSchool.
 
 The news database is taken from the Guardian API as endpoint was used Content and Single Item. The functionality itself is to offer the user the possibility to access different sections with particular news and the possibility to save the desired news in favorites.
 
